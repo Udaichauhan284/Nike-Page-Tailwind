@@ -12,12 +12,12 @@ const SuperQuality = () => {
           <span className="text-orange-500"> Super</span>
           <span className="text-orange-500"> Quality</span> Shoes
         </h2>
-        <p className="mt-4 lg:max-w-lg text-slate-gray">
+        <p className="mt-4 lg:max-w-lg text-slate-700">
           Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
         </p>
-        <p className='mt-6 lg:max-w-lg text-slate-gray'>
+        <p className='mt-6 lg:max-w-lg text-slate-700'>
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className='mt-11'>

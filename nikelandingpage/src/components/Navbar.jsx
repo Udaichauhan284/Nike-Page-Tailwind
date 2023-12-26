@@ -23,7 +23,7 @@ const Nav = () => {
         </div>
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in gap-16 ${open ? 'top-16' : 'top-[-490px]'}`}>
           {navLinks.map((item) => (
-            <li key={item.label} className='font-montserrat md:md-8 md:my-0 my-7 text-lg hover:text-orange-500'>
+            <li key={item.label} className='font-montserrat md:md-8 md:my-0 my-7 text-xl hover:text-orange-500'>
               <a
                 href={item.href}
               >
@@ -31,7 +31,7 @@ const Nav = () => {
               </a>
             </li>
           ))}
-          <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat'>
+          <div className='flex gap-2 text-xl leading-normal font-medium font-montserrat'>
           <a href='/'>Sign in</a>
           <span>/</span>
           <a href='/'>Explore now</a>
