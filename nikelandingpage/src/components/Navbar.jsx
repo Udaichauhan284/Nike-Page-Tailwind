@@ -21,7 +21,7 @@ const Nav = () => {
             open ? <XMarkIcon/> : <Bars3BottomRightIcon/>
           }
         </div>
-        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in gap-16 ${open ? 'top-16' : 'top-[-490px]'}`}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in-out gap-16  ${open ? 'left-26 bg-white top-26 text-center' : 'left-[-490px]'}`}>
           {navLinks.map((item) => (
             <li key={item.label} className='font-montserrat md:md-8 md:my-0 my-7 text-xl hover:text-orange-500'>
               <a

@@ -18,12 +18,12 @@ const Hero = () => {
           Our Summer collections
         </p>
 
-        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold z-1'>
-          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
+        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
+          <span className='xl:bg-white xl:whitespace-nowrap relative pr-10 z-[1]'>
             The New Arrival
           </span>
           <br />
-          <span className='inline-block mt-3 text-[#B57EDC]'>Nike</span> Shoes
+          <span className='inline-block mt-3 text-[#9b52cf]'>Nike</span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
           Discover stylish Nike arrivals, quality comfort, and innovation for
@@ -44,13 +44,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-[#CCCCFF] bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40  bg-hero bg-cover bg-center bg-[#cbb8e6]'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
           width={610}
           height={502}
-          className='object-contain relative z-10'
+          className='object-contain relative'
         />
 
         <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
